@@ -1,0 +1,63 @@
+package frontend.devs.server.Entities;
+
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+
+import java.util.Collection;
+
+public class CustomUserDetails implements UserDetails
+{
+
+	private final User user;
+
+	public CustomUserDetails(User user)
+		{
+			this.user = user;
+		}
+
+	@Override
+	public Collection<? extends GrantedAuthority> getAuthorities()
+		{
+			// Return the authorities/roles of the user
+			return null; // Assuming User has a getRoles() method returning a Collection of GrantedAuthority
+		}
+	public String getId() { // Đổi tên thành getId()
+		return user.getIDUser();
+	}
+
+	@Override
+	public String getPassword()
+		{
+			return user.getPassword();
+		}
+
+	@Override
+	public String getUsername()
+		{
+			return user.getUserName();
+		}
+
+	@Override
+	public boolean isAccountNonExpired()
+		{
+			return true;
+		}
+
+	@Override
+	public boolean isAccountNonLocked()
+		{
+			return true;
+		}
+
+	@Override
+	public boolean isCredentialsNonExpired()
+		{
+			return true;
+		}
+
+	@Override
+	public boolean isEnabled()
+		{
+			return true;
+		}
+}
