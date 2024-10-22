@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8xth3vgoxLM=",
+  "dgSpecHash": "VFwlh4E3DV8=",
   "success": true,
-  "projectFilePath": "D:\\Space Engineer\\Task Manager\\server\\server.csproj",
+  "projectFilePath": "S:\\JWT-Authentication\\[ C# ] .NET Core\\server\\server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Phong\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Phong\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

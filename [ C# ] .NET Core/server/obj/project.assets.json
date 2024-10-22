@@ -4527,11 +4527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Space Engineer\\Task Manager\\server\\server.csproj",
+      "projectUniqueName": "S:\\JWT-Authentication\\[ C# ] .NET Core\\server\\server.csproj",
       "projectName": "server",
-      "projectPath": "D:\\Space Engineer\\Task Manager\\server\\server.csproj",
+      "projectPath": "S:\\JWT-Authentication\\[ C# ] .NET Core\\server\\server.csproj",
       "packagesPath": "C:\\Users\\Phong\\.nuget\\packages\\",
-      "outputPath": "D:\\Space Engineer\\Task Manager\\server\\obj\\",
+      "outputPath": "S:\\JWT-Authentication\\[ C# ] .NET Core\\server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Phong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4626,7 +4626,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
